@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kezdőlap</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2b5b84; 
+            color: white;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 12px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        iframe {
+            max-width: 600px;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border: 0;
+            border-radius: 4px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            font-size: 0.9em;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="kezdolap.html">
+            <img src="iit.jpg" alt="IIT épület">
+        </a>
+    </header>
+
+    <nav>
+        <a href="adatbazis.html">Adatbázis rendszerek</a>
+        <a href="web1.html">Web technológiák 1</a>
+        <a href="webes_adatkezeles.html">Webes adatkezelő környezetek</a>
+    </nav>
+
+    <main>
+        <iframe
+            src="https://www.youtube.com/embed/1LutQSQ-GWY?autoplay=1&loop=1&playlist=1LutQSQ-GWY"
+            title="YouTube videó"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+    </main>
+
+    <footer>
+        Molnár Vajk Boldizsár, HJLXA4, 2026
+    </footer>
+
+</body>
+</html>
