@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Web technológiák 1</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a4f8b;
+            color: #ffffff;
+        }
+        header a img {
+            width: 100%;
+            max-height: 220px;
+            object-fit: cover;
+            display: block;
+            border: none;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #103866;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            box-sizing: border-box;
+            min-height: 420px;
+        }
+        .details {
+            flex: 1;
+            max-width: 55%;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        .details h3 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+        .details ul {
+            padding-left: 20px;
+        }
+        .side-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .side-image img {
+            max-width: 320px;
+            width: 100%;
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            font-size: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="kezdolap.html">
+            <img src="iit.jpg" alt="Vissza a kezdőlapra">
+        </a>
+    </header>
+
+    <nav>
+        <a href="adatbazis.html">Adatbázis rendszerek</a>
+        <a href="web1.html">Web technológiák 1</a>
+        <a href="webes_adatkezeles.html">Webes adatkezelő környezetek</a>
+    </nav>
+
+    <div class="content-container">
+        <div class="details">
+            <h3>Web technológiák 1</h3>
+            <p><strong>Oktató:</strong> Kiss Áron<br>
+            <strong>Kredit:</strong> 5</p>
+            <strong>Tematika:</strong>
+            <ul>
+                <li>A World Wide Web működése, kliens-szerver architektúra.</li>
+                <li>HTML5 alapelemek, szemantikus tagek és űrlapok készítése.</li>
+                <li>CSS3 formázási szabályok, szelektorok, Box modell.</li>
+                <li>Reszponzív felületek, Flexbox és CSS Grid elrendezések.</li>
+                <li>JavaScript alapok: szintaxis, vezérlési szerkezetek, függvények.</li>
+                <li>DOM manipuláció és eseménykezelés kliensoldalon.</li>
+                <li>Aszinkron JavaScript, Fetch API és JSON adatkezelés.</li>
+            </ul>
+        </div>
+        <div class="side-image">
+            <img src="webtech.png" alt="HTML CSS JS technológiák">
+        </div>
+    </div>
+
+    <footer>
+        <div>Forrás: Egyetemi tananyag</div>
+        <div>Molnár Vajk Boldizsár, HJLXA4, 2026</div>
+    </footer>
+
+</body>
+</html>

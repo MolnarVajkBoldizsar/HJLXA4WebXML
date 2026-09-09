@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Webes adatkezelő környezetek</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a4f8b;
+            color: #ffffff;
+        }
+        header a img {
+            width: 100%;
+            max-height: 220px;
+            object-fit: cover;
+            display: block;
+            border: none;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #103866;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            box-sizing: border-box;
+            min-height: 420px;
+        }
+        .details {
+            flex: 1;
+            max-width: 55%;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        .details h3 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+        .details ul {
+            padding-left: 20px;
+        }
+        .side-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .side-image img {
+            max-width: 320px;
+            width: 100%;
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            font-size: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        footer a {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="kezdolap.html">
+            <img src="iit.jpg" alt="Vissza a kezdőlapra">
+        </a>
+    </header>
+
+    <nav>
+        <a href="adatbazis.html">Adatbázis rendszerek</a>
+        <a href="web1.html">Web technológiák 1</a>
+        <a href="webes_adatkezeles.html">Webes adatkezelő környezetek</a>
+    </nav>
+
+    <div class="content-container">
+        <div class="details">
+            <h3>Webes adatkezelő környezetek</h3>
+            <p><strong>Oktató:</strong> Dr. Bednarik László<br>
+            <strong>Kredit:</strong> 5</p>
+            <strong>Tematika:</strong>
+            <ul>
+                <li>XML kialakulása, XML szabvány elemei.</li>
+                <li>XDM modell elemei, XDM modell készítése.</li>
+                <li>XMLSchema elemek áttekintése, tervezési módszertan.</li>
+                <li>JSON modell elemei, JSON séma kezelése.</li>
+                <li>JSON API programozása, YAML programozása.</li>
+                <li>A DOM API szabvány, alkalmazása.</li>
+                <li>Az XSLT transzformációs szabvány.</li>
+                <li>XPath szabvány elemei.</li>
+                <li>InfoSet, XDM, XInclude szabványok.</li>
+                <li>Kliens oldali adatperzisztencia lehetőségei.</li>
+                <li>Értékelés.</li>
+            </ul>
+        </div>
+        <div class="side-image">
+            <img src="json_schema.png" alt="JSON Schema logó">
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            Forrás: <a href="https://nicholaszhan.com/" target="_blank">https://nicholaszhan.com/</a>
+        </div>
+        <div>Molnár Vajk Boldizsár, HJLXA4, 2026</div>
+    </footer>
+
+</body>
+</html>
