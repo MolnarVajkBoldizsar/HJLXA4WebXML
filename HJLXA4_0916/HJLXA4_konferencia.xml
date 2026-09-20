@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+    <cim>Informatikai Konferencia 2026</cim>
+    
+    <hallgatok>
+        <hallgato>
+            <nev>Lukács Kristóf</nev>
+            <lakcim>3700 Kazincbarcika, Kossuth Lajos tér 1.</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Molnár Vajk Boldizsár</nev>
+            <lakcim>3721 Felsőnyárád, Petőfi Sándor út 55.</lakcim>
+        </hallgato>
+    </hallgatok>
+
+    <helyszin>Miskolci Egyetem, Díszaula</helyszin>
+
+    <eloado>
+        <nev>Dr. Szabó László</nev>
+        <adoszam>12345678-1-42</adoszam>
+        <lakcim>4028 Debrecen, Kassai út 26.</lakcim>
+    </eloado>
+
+    <datum>2026-10-15</datum>
+</konferencia>
