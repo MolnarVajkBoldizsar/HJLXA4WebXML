@@ -1,0 +1,124 @@
+<etterem_adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<foszakacsok>
+    <foszakacs Fkod="F1">
+        <nev>Kovács István</nev>
+        <eletkor>45</eletkor>
+        <vegzettsegek>
+            <vegzettseg>Mesterképzés - Gasztronómia</vegzettseg>
+            <vegzettseg>Francia konyhaművészet tanfolyam</vegzettseg>
+        </vegzettsegek>
+    </foszakacs>
+    <foszakacs Fkod="F2">
+        <nev>Tóth Béla</nev>
+        <eletkor>52</eletkor>
+        <vegzettsegek>
+            <vegzettseg>Szakács mesterlevél</vegzettseg>
+        </vegzettsegek>
+    </foszakacs>
+</foszakacsok>
+
+<ettermek>
+    <etterem Ekod="E1" Fkod="F1">
+        <nev>Gourmet Palota</nev>
+        <csillag>5</csillag>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Andrássy út</utca>
+            <hazszam>12</hazszam>
+        </cim>
+    </etterem>
+    <etterem Ekod="E2" Fkod="F2">
+        <nev>Duna Parti Kisvendéglő</nev>
+        <csillag>4</csillag>
+        <cim>
+            <varos>Szeged</varos>
+            <utca>Tisza part</utca>
+            <hazszam>4</hazszam>
+        </cim>
+    </etterem>
+</ettermek>
+
+<szakacsok>
+    <szakacs Szkod="SZ1" Ekod="E1">
+        <nev>Nagy Gábor</nev>
+        <reszleg>Hidegkonyha</reszleg>
+        <vegzettsegek>
+            <vegzettseg>Szakács OKJ</vegzettseg>
+            <vegzettseg>Cukrász alapképesítés</vegzettseg>
+        </vegzettsegek>
+    </szakacs>
+    <szakacs Szkod="SZ2" Ekod="E1">
+        <nev>Kiss Péter</nev>
+        <reszleg>Melegkonyha</reszleg>
+        <vegzettsegek>
+            <vegzettseg>Szakács szakmunkás</vegzettseg>
+        </vegzettsegek>
+    </szakacs>
+    <szakacs Szkod="SZ3" Ekod="E2">
+        <nev>Molnár Éva</nev>
+        <reszleg>Desszert</reszleg>
+        <vegzettsegek>
+            <vegzettseg>Cukrász mester</vegzettseg>
+        </vegzettsegek>
+    </szakacs>
+</szakacsok>
+
+<gyakornokok>
+    <gyakornok Gykod="GY1" Ekod="E1">
+        <nev>Szabó Dániel</nev>
+        <gyakorlat_kezdete>2024-02-01</gyakorlat_kezdete>
+        <gyakorlat_idotartama>6 hónap</gyakorlat_idotartama>
+        <muszakok>
+            <muszak>Délelőtt</muszak>
+            <muszak>Délután</muszak>
+        </muszakok>
+    </gyakornok>
+    <gyakornok Gykod="GY2" Ekod="E2">
+        <nev>Varga Anna</nev>
+        <gyakorlat_kezdete>2024-03-15</gyakorlat_kezdete>
+        <gyakorlat_idotartama>3 hónap</gyakorlat_idotartama>
+        <muszakok>
+            <muszak>Hétvége</muszak>
+        </muszakok>
+    </gyakornok>
+</gyakornokok>
+
+<vendegek>
+    <vendeg Vkod="V1">
+        <nev>Farkas Zsolt</nev>
+        <eletkor>34</eletkor>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Kossuth Lajos utca</utca>
+            <hazszam>10</hazszam>
+        </cim>
+    </vendeg>
+    <vendeg Vkod="V2">
+        <nev>Horváth Katalin</nev>
+        <eletkor>28</eletkor>
+        <cim>
+            <varos>Debrecen</varos>
+            <utca>Piac utca</utca>
+            <hazszam>21</hazszam>
+        </cim>
+    </vendeg>
+</vendegek>
+
+<rendelesek>
+    <rendeles Ekod="E1" Vkod="V1">
+        <etel>Bélszínjava vargányamártással</etel>
+        <osszeg>14500</osszeg>
+    </rendeles>
+    <rendeles Ekod="E1" Vkod="V2">
+        <etel>Tiramisu</etel>
+        <osszeg>3200</osszeg>
+    </rendeles>
+    <rendeles Ekod="E2" Vkod="V1">
+        <etel>Halászlé bográcsban</etel>
+        <osszeg>4800</osszeg>
+    </rendeles>
+</rendelesek>
+
+
+</etterem_adatbazis>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HJLXA4_kurzusfelvetel tanev="2026/27 I." egyetem="Miskolci Egyetem">
+
+    <hallgato>
+        <hnev>Molnár Vajk Boldizsár</hnev>
+        <szulev>2004</szulev>
+        <szak evf="3">Mérnökinformatikus</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="HJLXA4" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>WEB technológiák 1.</kurzusnev>
+            <kredit>5</kredit>
+            <helyszin>In/101</helyszin>
+            <idopont>Hétfő 10:00-12:00, 14:00-16:00</idopont>
+            <oktato>Agárdi Anita</oktato>
+            <oraado>Agárdi Anita</oraado>
+        </kurzus>
+
+        <kurzus id="HJLXA4" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>Mesterséges intelligencia</kurzusnev>
+            <kredit>5</kredit>
+            <helyszin>XXXII A1 magasfsz</helyszin>
+            <idopont>Kedd 8:00-12:00</idopont>
+            <oktato>Kunné Dr. Tamás Judit</oktato>
+            <oraado>Fazekas Levente</oraado>
+        </kurzus>
+
+        <kurzus id="HJLXA4" >
+            <kurzusnev>Webes adatkezelő környezet</kurzusnev>
+            <kredit>4</kredit>
+            <helyszin>In/202</helyszin>
+            <idopont>Szerda 8:00-10:00, 14:00-16:00</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+
+        <kurzus id="HJLXA4">
+            <kurzusnev>Mobil programozási alapok</kurzusnev>
+            <kredit>4</kredit>
+            <helyszin>In/101</helyszin>
+            <idopont>Hétfő 16:00-20:00</idopont>
+            <oktato>Agárdi Anita</oktato>
+        </kurzus>
+
+        <kurzus id="HJLXA4" >
+            <kurzusnev>UNIX rendszergazda</kurzusnev>
+            <kredit>3</kredit>
+            <helyszin>In/103</helyszin>
+            <idopont>Szerda 10:00-12:00</idopont>
+            <oktato>Dr. Baksa Attila</oktato>
+        </kurzus>
+
+        <kurzus id="HJLXA4" >
+            <kurzusnev>Windows rendszergazda</kurzusnev>
+            <kredit>3</kredit>
+            <helyszin>In/103</helyszin>
+            <idopont>Kedd 16:00-20:00</idopont>
+            <oktato>Huszák Péter</oktato>
+        </kurzus>
+
+        <kurzus id="HJLXA4" >
+            <kurzusnev>El.technika-elektronika</kurzusnev>
+            <kredit>4</kredit>
+            <helyszin>III A4 fsz.</helyszin>
+            <idopont>Hétfő 8:00-10:00, Kedd 14:00-16:00</idopont>
+            <oktato>Szabó Norbert</oktato>
+        </kurzus>
+
+        <kurzus id="HJLXA4" >
+            <kurzusnev>Műszaki szaknyelv 1.</kurzusnev>
+            <kredit>2</kredit>
+            <helyszin>A1/314</helyszin>
+            <idopont>Hétfő 12:00-14:00</idopont>
+            <oktato>Lévai-Asztalos Erzsébet</oktato>
+        </kurzus>
+    </kurzusok>
+
+</HJLXA4_kurzusfelvetel>
