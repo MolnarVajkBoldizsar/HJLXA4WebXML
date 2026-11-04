@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vendeglatas>
+  <Ettermek>
+    <Etterem>
+      <Ekod>E1</Ekod>
+      <Nev>Aranykanal Etterem</Nev>
+      <Csillag>5</Csillag>
+      <Varos>Budapest</Varos>
+      <Utca>Foutca</Utca>
+      <Hazszam>12</Hazszam>
+      <Fkod>F1</Fkod>
+    </Etterem>
+    <Etterem>
+      <Ekod>E2</Ekod>
+      <Nev>Balatonpart Bisztro</Nev>
+      <Csillag>3</Csillag>
+      <Varos>Siofok</Varos>
+      <Utca>Petofi setany</Utca>
+      <Hazszam>8</Hazszam>
+      <Fkod>F2</Fkod>
+    </Etterem>
+    <Etterem>
+      <Ekod>E3</Ekod>
+      <Nev>Kertvarosi Konyha</Nev>
+      <Csillag>5</Csillag>
+      <Varos>Szeged</Varos>
+      <Utca>Rozsa utca</Utca>
+      <Hazszam>24</Hazszam>
+      <Fkod>F3</Fkod>
+    </Etterem>
+  </Ettermek>
+
+  <Foszakacsok>
+    <Foszakacs>
+      <Fkod>F1</Fkod>
+      <Nev>Kovacs Anna</Nev>
+      <Eletkor>46</Eletkor>
+    </Foszakacs>
+    <Foszakacs>
+      <Fkod>F2</Fkod>
+      <Nev>Nagy Peter</Nev>
+      <Eletkor>52</Eletkor>
+    </Foszakacs>
+    <Foszakacs>
+      <Fkod>F3</Fkod>
+      <Nev>Szabo Eszter</Nev>
+      <Eletkor>39</Eletkor>
+    </Foszakacs>
+  </Foszakacsok>
+
+  <Foszakacs_vegzettsegek>
+    <Foszakacs_vegzettseg>
+      <Fkod>F1</Fkod>
+      <Vegzettseg>szakacsmester</Vegzettseg>
+    </Foszakacs_vegzettseg>
+    <Foszakacs_vegzettseg>
+      <Fkod>F2</Fkod>
+      <Vegzettseg>vendeglatoipari technikum</Vegzettseg>
+    </Foszakacs_vegzettseg>
+    <Foszakacs_vegzettseg>
+      <Fkod>F3</Fkod>
+      <Vegzettseg>szakközépiskola</Vegzettseg>
+    </Foszakacs_vegzettseg>
+  </Foszakacs_vegzettsegek>
+
+  <Szakacsok>
+    <Szakacs>
+      <Szkod>S1</Szkod>
+      <Nev>Toth Mark</Nev>
+      <Reszleg>hidegkonyha</Reszleg>
+      <Ekod>E1</Ekod>
+    </Szakacs>
+    <Szakacs>
+      <Szkod>S2</Szkod>
+      <Nev>Varga Julia</Nev>
+      <Reszleg>melegkonyha</Reszleg>
+      <Ekod>E1</Ekod>
+    </Szakacs>
+    <Szakacs>
+      <Szkod>S3</Szkod>
+      <Nev>Farkas Daniel</Nev>
+      <Reszleg>cukraszat</Reszleg>
+      <Ekod>E2</Ekod>
+    </Szakacs>
+    <Szakacs>
+      <Szkod>S4</Szkod>
+      <Nev>Balogh Noemi</Nev>
+      <Reszleg>melegkonyha</Reszleg>
+      <Ekod>E3</Ekod>
+    </Szakacs>
+  </Szakacsok>
+
+  <Szakacs_vegzettsegek>
+    <Szakacs_vegzettseg>
+      <Szkod>S1</Szkod>
+      <Vegzettseg>szakközépiskola</Vegzettseg>
+    </Szakacs_vegzettseg>
+    <Szakacs_vegzettseg>
+      <Szkod>S1</Szkod>
+      <Vegzettseg>szakács bizonyítvány</Vegzettseg>
+    </Szakacs_vegzettseg>
+    <Szakacs_vegzettseg>
+      <Szkod>S2</Szkod>
+      <Vegzettseg>vendeglatoipari technikum</Vegzettseg>
+    </Szakacs_vegzettseg>
+    <Szakacs_vegzettseg>
+      <Szkod>S3</Szkod>
+      <Vegzettseg>szakközépiskola</Vegzettseg>
+    </Szakacs_vegzettseg>
+    <Szakacs_vegzettseg>
+      <Szkod>S4</Szkod>
+      <Vegzettseg>szakács bizonyítvány</Vegzettseg>
+    </Szakacs_vegzettseg>
+  </Szakacs_vegzettsegek>
+
+  <Vendegek>
+    <Vendeg>
+      <Vkod>V1</Vkod>
+      <Nev>Kiss Bela</Nev>
+      <Eletkor>34</Eletkor>
+      <Varos>Budapest</Varos>
+      <Utca>Korut</Utca>
+      <Hazszam>5</Hazszam>
+    </Vendeg>
+    <Vendeg>
+      <Vkod>V2</Vkod>
+      <Nev>Molnar Eva</Nev>
+      <Eletkor>28</Eletkor>
+      <Varos>Szeged</Varos>
+      <Utca>Hunyadi ut</Utca>
+      <Hazszam>17</Hazszam>
+    </Vendeg>
+    <Vendeg>
+      <Vkod>V3</Vkod>
+      <Nev>Horvath Gabor</Nev>
+      <Eletkor>61</Eletkor>
+      <Varos>Siofok</Varos>
+      <Utca>Iskola utca</Utca>
+      <Hazszam>3</Hazszam>
+    </Vendeg>
+  </Vendegek>
+
+  <Gyakornokok>
+    <Gyakornok>
+      <Gykod>G1</Gykod>
+      <Nev>Jakab Levente</Nev>
+      <Gyakorlat_kezdete>2026-09-01</Gyakorlat_kezdete>
+      <Gyakorlat_idotartama>120</Gyakorlat_idotartama>
+      <Ekod>E1</Ekod>
+    </Gyakornok>
+    <Gyakornok>
+      <Gykod>G2</Gykod>
+      <Nev>Simon Luca</Nev>
+      <Gyakorlat_kezdete>2026-09-01</Gyakorlat_kezdete>
+      <Gyakorlat_idotartama>90</Gyakorlat_idotartama>
+      <Ekod>E2</Ekod>
+    </Gyakornok>
+    <Gyakornok>
+      <Gykod>G3</Gykod>
+      <Nev>Fekete Aron</Nev>
+      <Gyakorlat_kezdete>2026-10-01</Gyakorlat_kezdete>
+      <Gyakorlat_idotartama>120</Gyakorlat_idotartama>
+      <Ekod>E3</Ekod>
+    </Gyakornok>
+  </Gyakornokok>
+
+  <Rendelesek>
+    <Rendeles>
+      <Ekod>E1</Ekod>
+      <Vkod>V1</Vkod>
+      <Osszeg>12500</Osszeg>
+      <Etel>gulyasleves es marhaporkolt</Etel>
+    </Rendeles>
+    <Rendeles>
+      <Ekod>E1</Ekod>
+      <Vkod>V2</Vkod>
+      <Osszeg>8400</Osszeg>
+      <Etel>rantott csirke</Etel>
+    </Rendeles>
+    <Rendeles>
+      <Ekod>E2</Ekod>
+      <Vkod>V3</Vkod>
+      <Osszeg>6900</Osszeg>
+      <Etel>halaszle</Etel>
+    </Rendeles>
+    <Rendeles>
+      <Ekod>E3</Ekod>
+      <Vkod>V1</Vkod>
+      <Osszeg>15700</Osszeg>
+      <Etel>libamaj es somloi galuska</Etel>
+    </Rendeles>
+    <Rendeles>
+      <Ekod>E3</Ekod>
+      <Vkod>V2</Vkod>
+      <Osszeg>9200</Osszeg>
+      <Etel>zoldseges rizotto</Etel>
+    </Rendeles>
+  </Rendelesek>
+
+  <Gyakornok_muszakok>
+    <Gyakornok_muszak>
+      <Gykod>G1</Gykod>
+      <Muszak>délelőtt</Muszak>
+    </Gyakornok_muszak>
+    <Gyakornok_muszak>
+      <Gykod>G2</Gykod>
+      <Muszak>délután</Muszak>
+    </Gyakornok_muszak>
+    <Gyakornok_muszak>
+      <Gykod>G3</Gykod>
+      <Muszak>délelőtt</Muszak>
+    </Gyakornok_muszak>
+  </Gyakornok_muszakok>
+</Vendeglatas>
