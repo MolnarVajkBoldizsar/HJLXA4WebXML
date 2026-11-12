@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xpath-results source="orarendHJLXA42.xml">
+    <query expression="/orarend/ora[nap='Hétfő']" matches="1" number="1">
+        <ora id="ORA-01">
+                    
+            <tantargy>Webes adatkezelő</tantargy>
+                    
+            <tipus>Előadás</tipus>
+                    
+            <nap>Hétfő</nap>
+                    
+            <kezdet>08:00</kezdet>
+                    
+            <veg>09:30</veg>
+                    
+            <terem>A-101</terem>
+                    
+            <oktato>Dr. Kovács Anna</oktato>
+                
+        </ora>
+    </query>
+    <query expression="/orarend/ora[tipus='Gyakorlat']" matches="3" number="2">
+        <ora id="ORA-02">
+                    
+            <tantargy>XML technológiák</tantargy>
+                    
+            <tipus>Gyakorlat</tipus>
+                    
+            <nap>Kedd</nap>
+                    
+            <kezdet>10:00</kezdet>
+                    
+            <veg>11:30</veg>
+                    
+            <terem>A-203</terem>
+                    
+            <oktato>Szabó Péter</oktato>
+                
+        </ora>
+        <ora id="ORA-03">
+                    
+            <tantargy>Webes adatkezelő</tantargy>
+                    
+            <tipus>Gyakorlat</tipus>
+                    
+            <nap>Szerda</nap>
+                    
+            <kezdet>12:00</kezdet>
+                    
+            <veg>13:30</veg>
+                    
+            <terem>B-104</terem>
+                    
+            <oktato>Dr. Kovács Anna</oktato>
+                
+        </ora>
+        <ora id="ORA-05">
+                    
+            <tantargy>Programozás</tantargy>
+                    
+            <tipus>Gyakorlat</tipus>
+                    
+            <nap>Péntek</nap>
+                    
+            <kezdet>09:00</kezdet>
+                    
+            <veg>10:30</veg>
+                    
+            <terem>B-202</terem>
+                    
+            <oktato>Szabó Péter</oktato>
+                
+        </ora>
+    </query>
+    <query expression="/orarend/ora[oktato='Dr. Kovács Anna']" matches="2" number="3">
+        <ora id="ORA-01">
+                    
+            <tantargy>Webes adatkezelő</tantargy>
+                    
+            <tipus>Előadás</tipus>
+                    
+            <nap>Hétfő</nap>
+                    
+            <kezdet>08:00</kezdet>
+                    
+            <veg>09:30</veg>
+                    
+            <terem>A-101</terem>
+                    
+            <oktato>Dr. Kovács Anna</oktato>
+                
+        </ora>
+        <ora id="ORA-03">
+                    
+            <tantargy>Webes adatkezelő</tantargy>
+                    
+            <tipus>Gyakorlat</tipus>
+                    
+            <nap>Szerda</nap>
+                    
+            <kezdet>12:00</kezdet>
+                    
+            <veg>13:30</veg>
+                    
+            <terem>B-104</terem>
+                    
+            <oktato>Dr. Kovács Anna</oktato>
+                
+        </ora>
+    </query>
+</xpath-results>

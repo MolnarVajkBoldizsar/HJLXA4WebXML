@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xpath-results source="studentHJLXA4.xml">
+    <query expression="/class/student" matches="4" number="1">
+        <student id="01">
+                    
+            <keresztnev>Pál</keresztnev>
+                    
+            <vezeteknev>Kiss</vezeteknev>
+                    
+            <becenev>Webfejlesztő</becenev>
+                    
+            <kor>21</kor>
+                
+        </student>
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+        <student id="03">
+                    
+            <keresztnev>Gergő</keresztnev>
+                    
+            <vezeteknev>Tóth</vezeteknev>
+                    
+            <becenev>GT</becenev>
+                    
+            <kor>24</kor>
+                
+        </student>
+        <student id="04">
+                    
+            <keresztnev>Réka</keresztnev>
+                    
+            <vezeteknev>Varga</vezeteknev>
+                    
+            <becenev>Reki</becenev>
+                    
+            <kor>20</kor>
+                
+        </student>
+    </query>
+    <query expression="/class/student[@id='02']" matches="1" number="2">
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+    </query>
+    <query expression="//student" matches="4" number="3">
+        <student id="01">
+                    
+            <keresztnev>Pál</keresztnev>
+                    
+            <vezeteknev>Kiss</vezeteknev>
+                    
+            <becenev>Webfejlesztő</becenev>
+                    
+            <kor>21</kor>
+                
+        </student>
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+        <student id="03">
+                    
+            <keresztnev>Gergő</keresztnev>
+                    
+            <vezeteknev>Tóth</vezeteknev>
+                    
+            <becenev>GT</becenev>
+                    
+            <kor>24</kor>
+                
+        </student>
+        <student id="04">
+                    
+            <keresztnev>Réka</keresztnev>
+                    
+            <vezeteknev>Varga</vezeteknev>
+                    
+            <becenev>Reki</becenev>
+                    
+            <kor>20</kor>
+                
+        </student>
+    </query>
+    <query expression="/class/student[2]" matches="1" number="4">
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+    </query>
+    <query expression="/class/student[last()]" matches="1" number="5">
+        <student id="04">
+                    
+            <keresztnev>Réka</keresztnev>
+                    
+            <vezeteknev>Varga</vezeteknev>
+                    
+            <becenev>Reki</becenev>
+                    
+            <kor>20</kor>
+                
+        </student>
+    </query>
+    <query expression="/class/student[last()-1]" matches="1" number="6">
+        <student id="03">
+                    
+            <keresztnev>Gergő</keresztnev>
+                    
+            <vezeteknev>Tóth</vezeteknev>
+                    
+            <becenev>GT</becenev>
+                    
+            <kor>24</kor>
+                
+        </student>
+    </query>
+    <query expression="/class/student[position() &lt;= 2]" matches="2" number="7">
+        <student id="01">
+                    
+            <keresztnev>Pál</keresztnev>
+                    
+            <vezeteknev>Kiss</vezeteknev>
+                    
+            <becenev>Webfejlesztő</becenev>
+                    
+            <kor>21</kor>
+                
+        </student>
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+    </query>
+    <query expression="/class/*" matches="4" number="8">
+        <student id="01">
+                    
+            <keresztnev>Pál</keresztnev>
+                    
+            <vezeteknev>Kiss</vezeteknev>
+                    
+            <becenev>Webfejlesztő</becenev>
+                    
+            <kor>21</kor>
+                
+        </student>
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+        <student id="03">
+                    
+            <keresztnev>Gergő</keresztnev>
+                    
+            <vezeteknev>Tóth</vezeteknev>
+                    
+            <becenev>GT</becenev>
+                    
+            <kor>24</kor>
+                
+        </student>
+        <student id="04">
+                    
+            <keresztnev>Réka</keresztnev>
+                    
+            <vezeteknev>Varga</vezeteknev>
+                    
+            <becenev>Reki</becenev>
+                    
+            <kor>20</kor>
+                
+        </student>
+    </query>
+    <query expression="//student[@*]" matches="4" number="9">
+        <student id="01">
+                    
+            <keresztnev>Pál</keresztnev>
+                    
+            <vezeteknev>Kiss</vezeteknev>
+                    
+            <becenev>Webfejlesztő</becenev>
+                    
+            <kor>21</kor>
+                
+        </student>
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+        <student id="03">
+                    
+            <keresztnev>Gergő</keresztnev>
+                    
+            <vezeteknev>Tóth</vezeteknev>
+                    
+            <becenev>GT</becenev>
+                    
+            <kor>24</kor>
+                
+        </student>
+        <student id="04">
+                    
+            <keresztnev>Réka</keresztnev>
+                    
+            <vezeteknev>Varga</vezeteknev>
+                    
+            <becenev>Reki</becenev>
+                    
+            <kor>20</kor>
+                
+        </student>
+    </query>
+    <query expression="//*" matches="21" number="10">
+        <class>
+                
+            <student id="01">
+                        
+                <keresztnev>Pál</keresztnev>
+                        
+                <vezeteknev>Kiss</vezeteknev>
+                        
+                <becenev>Webfejlesztő</becenev>
+                        
+                <kor>21</kor>
+                    
+            </student>
+                
+            <student id="02">
+                        
+                <keresztnev>Anna</keresztnev>
+                        
+                <vezeteknev>Nagy</vezeteknev>
+                        
+                <becenev>Annus</becenev>
+                        
+                <kor>19</kor>
+                    
+            </student>
+                
+            <student id="03">
+                        
+                <keresztnev>Gergő</keresztnev>
+                        
+                <vezeteknev>Tóth</vezeteknev>
+                        
+                <becenev>GT</becenev>
+                        
+                <kor>24</kor>
+                    
+            </student>
+                
+            <student id="04">
+                        
+                <keresztnev>Réka</keresztnev>
+                        
+                <vezeteknev>Varga</vezeteknev>
+                        
+                <becenev>Reki</becenev>
+                        
+                <kor>20</kor>
+                    
+            </student>
+            
+        </class>
+        <student id="01">
+                    
+            <keresztnev>Pál</keresztnev>
+                    
+            <vezeteknev>Kiss</vezeteknev>
+                    
+            <becenev>Webfejlesztő</becenev>
+                    
+            <kor>21</kor>
+                
+        </student>
+        <keresztnev>Pál</keresztnev>
+        <vezeteknev>Kiss</vezeteknev>
+        <becenev>Webfejlesztő</becenev>
+        <kor>21</kor>
+        <student id="02">
+                    
+            <keresztnev>Anna</keresztnev>
+                    
+            <vezeteknev>Nagy</vezeteknev>
+                    
+            <becenev>Annus</becenev>
+                    
+            <kor>19</kor>
+                
+        </student>
+        <keresztnev>Anna</keresztnev>
+        <vezeteknev>Nagy</vezeteknev>
+        <becenev>Annus</becenev>
+        <kor>19</kor>
+        <student id="03">
+                    
+            <keresztnev>Gergő</keresztnev>
+                    
+            <vezeteknev>Tóth</vezeteknev>
+                    
+            <becenev>GT</becenev>
+                    
+            <kor>24</kor>
+                
+        </student>
+        <keresztnev>Gergő</keresztnev>
+        <vezeteknev>Tóth</vezeteknev>
+        <becenev>GT</becenev>
+        <kor>24</kor>
+        <student id="04">
+                    
+            <keresztnev>Réka</keresztnev>
+                    
+            <vezeteknev>Varga</vezeteknev>
+                    
+            <becenev>Reki</becenev>
+                    
+            <kor>20</kor>
+                
+        </student>
+        <keresztnev>Réka</keresztnev>
+        <vezeteknev>Varga</vezeteknev>
+        <becenev>Reki</becenev>
+        <kor>20</kor>
+    </query>
+    <query expression="/class/student[kor &gt; 20]" matches="2" number="11">
+        <student id="01">
+                    
+            <keresztnev>Pál</keresztnev>
+                    
+            <vezeteknev>Kiss</vezeteknev>
+                    
+            <becenev>Webfejlesztő</becenev>
+                    
+            <kor>21</kor>
+                
+        </student>
+        <student id="03">
+                    
+            <keresztnev>Gergő</keresztnev>
+                    
+            <vezeteknev>Tóth</vezeteknev>
+                    
+            <becenev>GT</becenev>
+                    
+            <kor>24</kor>
+                
+        </student>
+    </query>
+    <query expression="/class/student/*[self::keresztnev or self::vezeteknev]" matches="8" number="12">
+        <keresztnev>Pál</keresztnev>
+        <vezeteknev>Kiss</vezeteknev>
+        <keresztnev>Anna</keresztnev>
+        <vezeteknev>Nagy</vezeteknev>
+        <keresztnev>Gergő</keresztnev>
+        <vezeteknev>Tóth</vezeteknev>
+        <keresztnev>Réka</keresztnev>
+        <vezeteknev>Varga</vezeteknev>
+    </query>
+</xpath-results>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<orarend felev="2026-osz">
+        
+    <ora id="ORA-01">
+                
+        <tantargy>Webes adatkezelő</tantargy>
+                
+        <tipus>Előadás</tipus>
+                
+        <nap>Hétfő</nap>
+                
+        <kezdet>08:00</kezdet>
+                
+        <veg>09:30</veg>
+                
+        <terem>A-101</terem>
+                
+        <oktato>Dr. Kovács Anna</oktato>
+            
+    </ora>
+        
+    <ora id="ORA-02">
+                
+        <tantargy>XML technológiák</tantargy>
+                
+        <tipus>Gyakorlat</tipus>
+                
+        <nap>Kedd</nap>
+                
+        <kezdet>10:00</kezdet>
+                
+        <veg>11:30</veg>
+                
+        <terem>B-202</terem>
+                
+        <oktato>Szabó Péter</oktato>
+            
+    </ora>
+        
+    <ora id="ORA-03">
+                
+        <tantargy>Webes adatkezelő</tantargy>
+                
+        <tipus>Gyakorlat</tipus>
+                
+        <nap>Szerda</nap>
+                
+        <kezdet>12:00</kezdet>
+                
+        <veg>13:30</veg>
+                
+        <terem>B-104</terem>
+                
+        <oktato>Dr. Kovács Anna</oktato>
+            
+        <megjegyzes>Konzultáció előzetes egyeztetéssel.</megjegyzes>
+    </ora>
+        
+    <ora id="ORA-04">
+                
+        <tantargy>Adatbázis-kezelés</tantargy>
+                
+        <tipus>Előadás</tipus>
+                
+        <nap>Csütörtök</nap>
+                
+        <kezdet>14:00</kezdet>
+                
+        <veg>15:30</veg>
+                
+        <terem>C-201</terem>
+                
+        <oktato>Farkas Júlia</oktato>
+            
+    </ora>
+        
+    <ora id="ORA-05">
+                
+        <tantargy>Programozás</tantargy>
+                
+        <tipus>Gyakorlat</tipus>
+                
+        <nap>Péntek</nap>
+                
+        <kezdet>09:00</kezdet>
+                
+        <veg>10:30</veg>
+                
+        <terem>B-202</terem>
+                
+        <oktato>Szabó Péter</oktato>
+            
+    </ora>
+    
+    <ora id="ORA-06">
+        <tantargy>XML konzultáció</tantargy>
+        <tipus>Konzultáció</tipus>
+        <nap>Péntek</nap>
+        <kezdet>12:00</kezdet>
+        <veg>13:00</veg>
+        <terem>C-105</terem>
+        <oktato>Dr. Kovács Anna</oktato>
+    </ora>
+</orarend>
