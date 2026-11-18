@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XPathLekerdezesek forras="orarendHJLXA4.xml">
+    <lekérdezés darab="4" nev="Előadások">
+        <xPath>/MVB_orarend/ora[@tipus='eloadas']</xPath>
+        <ora id="o1" tipus="eloadas">
+                    
+            <targy>El.technika-elektronika</targy>
+                    
+            <idopont>
+                            
+                <nap>Hetfo</nap>
+                            
+                <tol>8:00</tol>
+                            
+                <ig>10:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>III A4 fsz.</helyszin>
+                    
+            <oktato>Szabó Norbert</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+        <ora id="o2" tipus="eloadas">
+                    
+            <targy>WEB technológiák 1.</targy>
+                    
+            <idopont>
+                            
+                <nap>Hetfo</nap>
+                            
+                <tol>10:00</tol>
+                            
+                <ig>12:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>V A1 magasfsz3-4</helyszin>
+                    
+            <oktato>Agárdi Anita</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+        <ora id="o7" tipus="eloadas">
+                    
+            <targy>Mesterséges intelligencia</targy>
+                    
+            <idopont>
+                            
+                <nap>Kedd</nap>
+                            
+                <tol>10:00</tol>
+                            
+                <ig>12:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>XXXII A1 magasfsz</helyszin>
+                    
+            <oktato>Kunné Dr. Tamás Judit</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+        <ora id="o12" tipus="eloadas">
+                    
+            <targy>Webes adatkezelő környezet</targy>
+                    
+            <idopont>
+                            
+                <nap>Szerda</nap>
+                            
+                <tol>14:00</tol>
+                            
+                <ig>16:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>In/101 In I. e. 101</helyszin>
+                    
+            <oktato>Dr. Bednarik László</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+    </lekérdezés>
+    <lekérdezés darab="3" nev="Szerdai órák">
+        <xPath>/MVB_orarend/ora[idopont/nap='Szerda']</xPath>
+        <ora id="o10" tipus="gyakorlat">
+                    
+            <targy>Webes adatkezelő környezet</targy>
+                    
+            <idopont>
+                            
+                <nap>Szerda</nap>
+                            
+                <tol>8:00</tol>
+                            
+                <ig>10:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>In/202 In II. em. 202</helyszin>
+                    
+            <oktato>Dr. Bednarik László</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+        <ora id="o11" tipus="gyakorlat">
+                    
+            <targy>UNIX rendszergazda</targy>
+                    
+            <idopont>
+                            
+                <nap>Szerda</nap>
+                            
+                <tol>10:00</tol>
+                            
+                <ig>12:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>In/103 In I. em. 103</helyszin>
+                    
+            <oktato>Dr. Baksa Attila</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+        <ora id="o12" tipus="eloadas">
+                    
+            <targy>Webes adatkezelő környezet</targy>
+                    
+            <idopont>
+                            
+                <nap>Szerda</nap>
+                            
+                <tol>14:00</tol>
+                            
+                <ig>16:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>In/101 In I. e. 101</helyszin>
+                    
+            <oktato>Dr. Bednarik László</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+    </lekérdezés>
+    <lekérdezés darab="2" nev="Dr. Bednarik László órái">
+        <xPath>/MVB_orarend/ora[oktato='Dr. Bednarik László']</xPath>
+        <ora id="o10" tipus="gyakorlat">
+                    
+            <targy>Webes adatkezelő környezet</targy>
+                    
+            <idopont>
+                            
+                <nap>Szerda</nap>
+                            
+                <tol>8:00</tol>
+                            
+                <ig>10:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>In/202 In II. em. 202</helyszin>
+                    
+            <oktato>Dr. Bednarik László</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+        <ora id="o12" tipus="eloadas">
+                    
+            <targy>Webes adatkezelő környezet</targy>
+                    
+            <idopont>
+                            
+                <nap>Szerda</nap>
+                            
+                <tol>14:00</tol>
+                            
+                <ig>16:00</ig>
+                        
+            </idopont>
+                    
+            <helyszin>In/101 In I. e. 101</helyszin>
+                    
+            <oktato>Dr. Bednarik László</oktato>
+                    
+            <szak>Mérnökinformatikus</szak>
+                
+        </ora>
+    </lekérdezés>
+</XPathLekerdezesek>
