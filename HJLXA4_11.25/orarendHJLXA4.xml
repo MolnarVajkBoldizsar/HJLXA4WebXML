@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="orarendHJLXA4.xsl"?>
+<orarend>
+    <ora id="01">
+        <tantargy>Webes adatok kezelése</tantargy>
+        <tipus>gyakorlat</tipus>
+        <nap>kedd</nap>
+        <kezdes>14:00</kezdes>
+        <befejezes>16:00</befejezes>
+        <helyszin>Inf/124</helyszin>
+        <oktato>Dr. BL</oktato>
+        <szak>PTI BSc</szak>
+    </ora>
+    <ora id="02">
+        <tantargy>Webes adatok kezelése</tantargy>
+        <tipus>előadás</tipus>
+        <nap>csütörtök</nap>
+        <kezdes>12:00</kezdes>
+        <befejezes>14:00</befejezes>
+        <helyszin>Inf/124</helyszin>
+        <oktato>BL</oktato>
+        <szak>PTI BSc</szak>
+    </ora>
+    <ora id="03">
+        <tantargy>Adatkezelés XML-es környezetben</tantargy>
+        <tipus>gyakorlat</tipus>
+        <nap>csütörtök</nap>
+        <kezdes>12:00</kezdes>
+        <befejezes>14:00</befejezes>
+        <helyszin>In103</helyszin>
+        <oktato>KL</oktato>
+        <szak>PTI BSc</szak>
+    </ora>
+</orarend>
